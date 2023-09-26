@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">    
+    <title>Currency change</title>
+</head>
+<body> 
+    <div class="wrapper">
+        <h1 class="form__title">
+            Currency exchange
+        </h1>
+        <form class="form">
+        
+            <input class="form__input" type="number" placeholder="Raqam kiriting">
+            <select class="form__select">
+                <option value="Choose" hidden>Choose</option>
+                <option value="USD">USD</option>
+                <option value="Euro">Euro</option>
+                <option value="Rubl">Rubl</option>
+            </select>
+            <button class="form__btn" type="submit">Convert</button>
+        </form>
+        <output class="output"></output>
+        <p>MoneyGramm</p>
+        <!-- <form>
+            <p>Для скольких людей надо приготовить яичницу:</p>
+            <input type="number" name="peoples" oninput="eggs.value = (parseInt(peoples.value) * 2)">
+            <p>Необходимое количество яиц:</p>
+            <output name="eggs"></output>
+          </form> -->
+          
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
